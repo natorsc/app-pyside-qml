@@ -5,26 +5,26 @@
     <name>MainWindow</name>
     <message>
         <location filename="../../ui/MainWindow.qml" line="13"/>
-        <source>PySide</source>
-        <translation>PySide</translation>
+        <source>Python - PySide6 - Qt</source>
+        <translation>Python - PySide6 - Qt</translation>
     </message>
     <message>
-        <location filename="../../ui/MainWindow.qml" line="55"/>
+        <location filename="../../ui/MainWindow.qml" line="57"/>
         <source>Este texto será alterado.</source>
         <translation>This text will be changed.</translation>
     </message>
     <message>
-        <location filename="../../ui/MainWindow.qml" line="63"/>
+        <location filename="../../ui/MainWindow.qml" line="65"/>
         <source>Digite algo</source>
         <translation>Type something</translation>
     </message>
     <message>
-        <location filename="../../ui/MainWindow.qml" line="69"/>
+        <location filename="../../ui/MainWindow.qml" line="71"/>
         <source>Clique aqui (QML)</source>
         <translation>Click here (QML)</translation>
     </message>
     <message>
-        <location filename="../../ui/MainWindow.qml" line="84"/>
+        <location filename="../../ui/MainWindow.qml" line="86"/>
         <source>Clique aqui (Python)</source>
         <translation>Click here (Python)</translation>
     </message>
@@ -40,7 +40,7 @@
     </message>
     <message>
         <location filename="../../../app_pyside_qml/components/MainWindow.py" line="20"/>
-        <location filename="../../ui/MainWindow.qml" line="74"/>
+        <location filename="../../ui/MainWindow.qml" line="76"/>
         <source>Digite algo no campo de texto ;).</source>
         <translation>Type something in the text field ;).</translation>
     </message>

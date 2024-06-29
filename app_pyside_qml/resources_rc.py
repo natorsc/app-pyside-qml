@@ -1,159 +1,167 @@
 # Resource object code (Python 3)
 # Created by: object code
-# Created by: The Resource Compiler for Qt version 6.7.0
+# Created by: The Resource Compiler for Qt version 6.7.2
 # WARNING! All changes made in this file will be lost!
 
 from PySide6 import QtCore
 
 qt_resource_data = b"\
-\x00\x00\x00\x18\
+\x00\x00\x00\x19\
 [\
-Controls]\x0aStyle=\
-Default\
-\x00\x00\x08H\
+Controls]\x0d\x0aStyle\
+=Default\
+\x00\x00\x08\xce\
 i\
-mport QtQuick\x0aim\
-port QtQuick.Con\
-trols\x0aimport QtQ\
-uick.Layouts\x0a\x0aAp\
-plicationWindow \
-{\x0a    id: root\x0a\x0a\
-    property col\
-or systemTextCol\
-or: systemPalett\
-e.text\x0a\x0a    heig\
-ht: Screen.heigh\
-t / 2\x0a    minimu\
-mHeight: Screen.\
-height / 3\x0a    m\
-inimumWidth: Scr\
-een.height / 3\x0a \
-   title: qsTr('\
-PySide')\x0a    vis\
-ible: true\x0a    w\
-idth: Screen.wid\
-th / 2\x0a    x: 40\
-\x0a    y: 50\x0a\x0a    \
-menuBar: MenuBar\
- {\x0a        Menu \
-{\x0a            id\
-: mainMenu\x0a\x0a    \
-        title: q\
-sTr('Arquivo')\x0a\x0a\
-            Acti\
-on {\x0a           \
-     id: actionE\
-xit\x0a\x0a           \
-     icon.name: \
-'application-exi\
-t'\x0a             \
-   icon.source: \
-'qrc:/icons/appl\
-ication-exit'\x0a  \
-              sh\
-ortcut: \x22Ctrl+q\x22\
-\x0a               \
- text: qsTr('Sai\
-r')\x0a\x0a           \
-     onTriggered\
-: Qt.quit()\x0a    \
-        }\x0a      \
-  }\x0a    }\x0a\x0a    S\
-ystemPalette {\x0a \
-       id: syste\
-mPalette\x0a\x0a      \
-  colorGroup: Sy\
-stemPalette.Acti\
-ve\x0a    }\x0a    Col\
-umnLayout {\x0a    \
-    anchors.fill\
-: parent\x0a       \
- anchors.margins\
-: 12\x0a        spa\
-cing: 6\x0a\x0a       \
- Label {\x0a       \
-     id: label\x0a\x0a\
-            Layo\
-ut.fillHeight: t\
-rue\x0a            \
-Layout.fillWidth\
-: true\x0a         \
-   // color: sys\
-temTextColor\x0a   \
+mport QtQuick\x0d\x0ai\
+mport QtQuick.Co\
+ntrols\x0d\x0aimport Q\
+tQuick.Layouts\x0d\x0a\
+\x0d\x0aApplicationWin\
+dow {\x0d\x0a    id: r\
+oot\x0d\x0a\x0d\x0a    prope\
+rty color system\
+TextColor: syste\
+mPalette.text\x0d\x0a\x0d\
+\x0a    height: Scr\
+een.height / 2\x0d\x0a\
+    minimumHeigh\
+t: Screen.height\
+ / 3\x0d\x0a    minimu\
+mWidth: Screen.h\
+eight / 3\x0d\x0a    t\
+itle: qsTr('Pyth\
+on - PySide6 - Q\
+t')\x0d\x0a    visible\
+: true\x0d\x0a    widt\
+h: Screen.width \
+/ 2\x0d\x0a    x: 40\x0d\x0a\
+    y: 50\x0d\x0a\x0d\x0a   \
+ menuBar: MenuBa\
+r {\x0d\x0a        Men\
+u {\x0d\x0a           \
+ id: mainMenu\x0d\x0a\x0d\
+\x0a            tit\
+le: qsTr('Arquiv\
+o')\x0d\x0a\x0d\x0a         \
+   Action {\x0d\x0a   \
+             id:\
+ actionExit\x0d\x0a\x0d\x0a \
+               i\
+con.name: 'appli\
+cation-exit'\x0d\x0a  \
+              ic\
+on.source: 'qrc:\
+/icons/applicati\
+on-exit'\x0d\x0a      \
+          shortc\
+ut: \x22Ctrl+q\x22\x0d\x0a  \
+              te\
+xt: qsTr('Sair')\
+\x0d\x0a\x0d\x0a            \
+    onTriggered:\
+ Qt.quit()\x0d\x0a    \
+        }\x0d\x0a     \
+   }\x0d\x0a    }\x0d\x0a\x0d\x0a \
+   SystemPalette\
+ {\x0d\x0a        id: \
+systemPalette\x0d\x0a\x0d\
+\x0a        colorGr\
+oup: SystemPalet\
+te.Active\x0d\x0a    }\
+\x0d\x0a    ColumnLayo\
+ut {\x0d\x0a        id\
+: columnLayout\x0d\x0a\
+\x0d\x0a        anchor\
+s.fill: parent\x0d\x0a\
+        anchors.\
+margins: 12\x0d\x0a   \
+     spacing: 6\x0d\
+\x0a\x0d\x0a        Label\
+ {\x0d\x0a            \
+id: label\x0d\x0a\x0d\x0a   \
+         Layout.\
+fillHeight: true\
+\x0d\x0a            La\
+yout.fillWidth: \
+true\x0d\x0a          \
+  // color: syst\
+emTextColor\x0d\x0a   \
          horizon\
 talAlignment: Te\
-xt.AlignHCenter\x0a\
-            text\
-: qsTr('Este tex\
-to ser\xc3\xa1 alterad\
-o.')\x0a           \
- verticalAlignme\
-nt: Text.AlignVC\
-enter\x0a          \
-  wrapMode: Text\
-.WordWrap\x0a      \
-  }\x0a        Text\
-Field {\x0a        \
-    id: textFiel\
-d\x0a\x0a            L\
-ayout.fillWidth:\
- true\x0a          \
-  placeholderTex\
-t: qsTr('Digite \
-algo')\x0a        }\
-\x0a        Button \
-{\x0a            id\
-: buttonQML\x0a\x0a   \
-         Layout.\
-fillWidth: true\x0a\
-            text\
-: qsTr('Clique a\
-qui (QML)')\x0a\x0a   \
-         onClick\
-ed: {\x0a          \
-      var value \
-= textField.text\
-;\x0a              \
-  if (value.trim\
-().length === 0)\
- {\x0a             \
-       label.tex\
-t = qsTr('Digite\
- algo no campo d\
-e texto ;).');\x0a \
-               }\
- else {\x0a        \
-            labe\
-l.text = value;\x0a\
+xt.AlignHCenter\x0d\
+\x0a            tex\
+t: qsTr('Este te\
+xto ser\xc3\xa1 altera\
+do.')\x0d\x0a         \
+   verticalAlign\
+ment: Text.Align\
+VCenter\x0d\x0a       \
+     wrapMode: T\
+ext.WordWrap\x0d\x0a  \
+      }\x0d\x0a       \
+ TextField {\x0d\x0a  \
+          id: te\
+xtField\x0d\x0a\x0d\x0a     \
+       Layout.fi\
+llWidth: true\x0d\x0a \
+           place\
+holderText: qsTr\
+('Digite algo')\x0d\
+\x0a        }\x0d\x0a    \
+    Button {\x0d\x0a  \
+          id: bu\
+ttonQML\x0d\x0a\x0d\x0a     \
+       Layout.fi\
+llWidth: true\x0d\x0a \
+           text:\
+ qsTr('Clique aq\
+ui (QML)')\x0d\x0a\x0d\x0a  \
+          onClic\
+ked: {\x0d\x0a        \
+        var valu\
+e = textField.te\
+xt;\x0d\x0a           \
+     if (value.t\
+rim().length ===\
+ 0) {\x0d\x0a         \
+           label\
+.text = qsTr('Di\
+gite algo no cam\
+po de texto ;).'\
+);\x0d\x0a            \
+    } else {\x0d\x0a  \
                 \
-}\x0a            }\x0a\
-        }\x0a      \
-  Button {\x0a     \
-       id: butto\
-nPython\x0a\x0a       \
-     Layout.fill\
-Width: true\x0a    \
-        text: qs\
-Tr('Clique aqui \
-(Python)')\x0a\x0a    \
+  label.text = v\
+alue;\x0d\x0a         \
+       }\x0d\x0a      \
+      }\x0d\x0a       \
+ }\x0d\x0a        Butt\
+on {\x0d\x0a          \
+  id: buttonPyth\
+on\x0d\x0a\x0d\x0a          \
+  Layout.fillWid\
+th: true\x0d\x0a      \
+      text: qsTr\
+('Clique aqui (P\
+ython)')\x0d\x0a\x0d\x0a    \
         onClicke\
-d: {\x0a           \
-     label.text \
-= mainwindow.on_\
-button_python_cl\
-icked(textField.\
-text);\x0a         \
-   }\x0a        }\x0a \
-   }\x0a}\x0a\
-\x00\x00\x02\xd9\
+d: {\x0d\x0a          \
+      label.text\
+ = mainwindow.on\
+_button_python_c\
+licked(textField\
+.text);\x0d\x0a       \
+     }\x0d\x0a        \
+}\x0d\x0a    }\x0d\x0a}\x0d\x0a\
+\x00\x00\x03\x06\
 <\
 \xb8d\x18\xca\xef\x9c\x95\xcd!\x1c\xbf`\xa1\xbd\xdd\xa7\
 \x00\x00\x00\x05en_USB\x00\x00\x00@\x00\x05\
-\x98\x02\x00\x00\x02C\x00\x11\xf9\xd9\x00\x00\x00\x87\x01\x0d\
-\x1c\xee\x00\x00\x01\xa5\x03\x8bw\xee\x00\x00\x01\x1d\x05~\
-\x9f\xa5\x00\x00\x02\x12\x08\x98\xc0\x8f\x00\x00\x00\x00\x0a<\
+\x98\x02\x00\x00\x02p\x00\x11\xf9\xd9\x00\x00\x00\x87\x01\x0d\
+\x1c\xee\x00\x00\x01\xa5\x03\x8bw\xee\x00\x00\x01\x1d\x07\x0a\
+0\xd4\x00\x00\x02\x12\x08\x98\xc0\x8f\x00\x00\x00\x00\x0a<\
 \x9c\xdf\x00\x00\x00\xd7\x0d\x89\xf5\x19\x00\x00\x00.i\x00\
-\x00\x02n\x03\x00\x00\x00\x08\x00F\x00i\x00l\x00e\
+\x00\x02\x9b\x03\x00\x00\x00\x08\x00F\x00i\x00l\x00e\
 \x08\x00\x00\x00\x00\x06\x00\x00\x00\x07Arquiv\
 o\x07\x00\x00\x00\x0aMainWindow\
 \x01\x03\x00\x00\x00&\x00C\x00l\x00i\x00c\x00k\
@@ -186,44 +194,48 @@ h\x00i\x00s\x00 \x00t\x00e\x00x\x00t\x00\
 .\x08\x00\x00\x00\x00\x06\x00\x00\x00\x1aEste \
 texto ser\xc3\xa1 alte\
 rado.\x07\x00\x00\x00\x0aMainWi\
-ndow\x01\x03\x00\x00\x00\x0c\x00P\x00y\x00S\
-\x00i\x00d\x00e\x08\x00\x00\x00\x00\x06\x00\x00\x00\x06\
-PySide\x07\x00\x00\x00\x0aMainW\
-indow\x01\x03\x00\x00\x00\x08\x00E\x00x\x00\
-i\x00t\x08\x00\x00\x00\x00\x06\x00\x00\x00\x04Sai\
-r\x07\x00\x00\x00\x0aMainWindow\
-\x01\x88\x00\x00\x00\x02\x01\x01\
-\x00\x00\x01\xc9\
+ndow\x01\x03\x00\x00\x00*\x00P\x00y\x00t\
+\x00h\x00o\x00n\x00 \x00-\x00 \x00P\x00y\
+\x00S\x00i\x00d\x00e\x006\x00 \x00-\x00 \
+\x00Q\x00t\x08\x00\x00\x00\x00\x06\x00\x00\x00\x15Py\
+thon - PySide6 -\
+ Qt\x07\x00\x00\x00\x0aMainWind\
+ow\x01\x03\x00\x00\x00\x08\x00E\x00x\x00i\x00t\
+\x08\x00\x00\x00\x00\x06\x00\x00\x00\x04Sair\x07\x00\
+\x00\x00\x0aMainWindow\x01\x88\x00\
+\x00\x00\x02\x01\x01\
+\x00\x00\x01\xda\
 <\
 svg xmlns=\x22http:\
 //www.w3.org/200\
 0/svg\x22 viewBox=\x22\
-0 0 16 16\x22>\x0a  <d\
-efs id=\x22defs3051\
-\x22>\x0a    <style ty\
-pe=\x22text/css\x22 id\
-=\x22current-color-\
-scheme\x22>\x0a      .\
-ColorScheme-Text\
- {\x0a        color\
-:#eff0f1;\x0a      \
-}\x0a      .ColorSc\
-heme-NegativeTex\
-t {\x0a        colo\
-r:#da4453;\x0a     \
- }\x0a      </style\
->\x0a  </defs>\x0a  <p\
-ath\x0a     style=\x22\
-fill:currentColo\
-r;fill-opacity:1\
-;stroke:none\x22 \x0a \
-    class=\x22Color\
-Scheme-NegativeT\
-ext\x22\x0a     d=\x22m2 \
-2v12h12v-12zm1 3\
-h10v8h-10zm3 3v2\
-h4v-2z\x22\x0a      />\
-\x0a</svg>\x0a\
+0 0 16 16\x22>\x0d\x0a  <\
+defs id=\x22defs305\
+1\x22>\x0d\x0a    <style \
+type=\x22text/css\x22 \
+id=\x22current-colo\
+r-scheme\x22>\x0d\x0a    \
+  .ColorScheme-T\
+ext {\x0d\x0a        c\
+olor:#eff0f1;\x0d\x0a \
+     }\x0d\x0a      .C\
+olorScheme-Negat\
+iveText {\x0d\x0a     \
+   color:#da4453\
+;\x0d\x0a      }\x0d\x0a    \
+  </style>\x0d\x0a  </\
+defs>\x0d\x0a  <path\x0d\x0a\
+     style=\x22fill\
+:currentColor;fi\
+ll-opacity:1;str\
+oke:none\x22 \x0d\x0a    \
+ class=\x22ColorSch\
+eme-NegativeText\
+\x22\x0d\x0a     d=\x22m2 2v\
+12h12v-12zm1 3h1\
+0v8h-10zm3 3v2h4\
+v-2z\x22\x0d\x0a      />\x0d\
+\x0a</svg>\x0d\x0a\
 \x00\x00\x22M\
 \x89\
 PNG\x0d\x0a\x1a\x0a\x00\x00\x00\x0dIHDR\x00\
@@ -824,15 +836,15 @@ qt_resource_struct = b"\
 \x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x05\
 \x00\x00\x00\x00\x00\x00\x00\x00\
 \x00\x00\x00\x10\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
-\x00\x00\x01\x8f\x971\xb9\x96\
-\x00\x00\x00\x9e\x00\x00\x00\x00\x00\x01\x00\x00\x0bE\
-\x00\x00\x01\x8f\x95\xe4 \xef\
-\x00\x00\x00\xc4\x00\x00\x00\x00\x00\x01\x00\x00\x0d\x12\
-\x00\x00\x01\x8f\x95\xe4 \xef\
-\x00\x00\x00h\x00\x00\x00\x00\x00\x01\x00\x00\x08h\
-\x00\x00\x01\x8f\x97H}O\
-\x00\x00\x00N\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1c\
-\x00\x00\x01\x8f\x97?\xcd\x87\
+\x00\x00\x01\x90c\xd0\xa4\x06\
+\x00\x00\x00\x9e\x00\x00\x00\x00\x00\x01\x00\x00\x0b\xf9\
+\x00\x00\x01\x90c\xd0\xa4\x04\
+\x00\x00\x00\xc4\x00\x00\x00\x00\x00\x01\x00\x00\x0d\xd7\
+\x00\x00\x01\x90c\xd0\xa4\x05\
+\x00\x00\x00h\x00\x00\x00\x00\x00\x01\x00\x00\x08\xef\
+\x00\x00\x01\x90d/\xbfy\
+\x00\x00\x00N\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1d\
+\x00\x00\x01\x90d)c\x16\
 "
 
 def qInitResources():

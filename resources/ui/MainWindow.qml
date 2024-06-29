@@ -10,7 +10,7 @@ ApplicationWindow {
     height: Screen.height / 2
     minimumHeight: Screen.height / 3
     minimumWidth: Screen.height / 3
-    title: qsTr('PySide')
+    title: qsTr('Python - PySide6 - Qt')
     visible: true
     width: Screen.width / 2
     x: 40
@@ -41,6 +41,8 @@ ApplicationWindow {
         colorGroup: SystemPalette.Active
     }
     ColumnLayout {
+        id: columnLayout
+
         anchors.fill: parent
         anchors.margins: 12
         spacing: 6

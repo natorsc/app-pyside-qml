@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-'''.'''
+"""."""
 
 import locale
 import sys
+from ctypes import windll
 
-from PySide6 import QtCore, QtGui, QtWidgets, QtQml
-
+from PySide6 import QtCore, QtGui, QtQml, QtWidgets
 
 try:
     import resources_rc
@@ -13,6 +13,9 @@ try:
 except ModuleNotFoundError:
     from app_pyside_qml import resources_rc
     from app_pyside_qml.components.MainWindow import MainWindow
+
+
+RESOURCES_RC = resources_rc
 
 
 def main() -> None:
@@ -33,17 +36,11 @@ def main() -> None:
         application.installTranslator(translator)
 
     if QtCore.QSysInfo.productType() == 'windows':
-        from ctypes import windll
-
         windll.shell32.SetCurrentProcessExplicitAppUserModelID(
             APPLICATION_NAME,
         )
 
-    # system_environment = QtCore.QProcessEnvironment.systemEnvironment()
-    # if not system_environment.contains('QT_QUICK_CONTROLS_STYLE'):
-    #     system_environment.insert('QT_QUICK_CONTROLS_STYLE', 'org.kde.desktop')
-
-    mainwindow = MainWindow()
+    mainwindow = MainWindow(application=application)
 
     engine = QtQml.QQmlApplicationEngine()
     engine.rootContext().setContextProperty('mainwindow', mainwindow)
@@ -55,5 +52,14 @@ def main() -> None:
     sys.exit(application.exec())
 
 
-if __name__ == "__main__":
+def get_engine() -> QtQml.QQmlApplicationEngine:
+    engine = QtQml.QQmlApplicationEngine()
+    engine.load(QtCore.QUrl('qrc:/ui/MainWindow'))
+
+    if not engine.rootObjects():
+        sys.exit(-1)
+    return engine
+
+
+if __name__ == '__main__':
     main()
