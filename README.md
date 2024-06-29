@@ -19,7 +19,7 @@
 
 ## 📝 Description
 
-Repository displays a way of structuring a project that uses the Python programming language to create an application with the PySide6 binding and Qt graphical toolkit.
+Repository displays a way of structuring a project that uses the Python programming language to create an application with the PySide6 binding and Qt graphical toolkit (QML).
 
 ### ToDo
 

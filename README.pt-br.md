@@ -19,7 +19,7 @@
 
 ## 📝 Descrição
 
-Repositório exibe uma forma de estruturar um projeto que utiliza a linguagem de programação Python para criar um aplicativo com o binding PySide6 e toolkit gráfico Qt.
+Repositório exibe uma forma de estruturar um projeto que utiliza a linguagem de programação Python para criar um aplicativo com o binding PySide6 e toolkit gráfico Qt (QML).
 
 - [x] Realizar as traduções com o software Qt Linguist. `pyside6-linguist`.
 - [x] Padronizar a geração de arquivos de tradução (`*.ts`). `pyside6-lupdate`.
